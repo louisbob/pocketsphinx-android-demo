@@ -51,7 +51,7 @@ import edu.cmu.pocketsphinx.SpeechRecognizer;
 public class PocketSphinxActivity extends Activity implements
         RecognitionListener {
 		
-	private static final String TAG = PocketSphinxActivity.class.getName();
+    private static final String TAG = PocketSphinxActivity.class.getName();
     private static final String KWS_SEARCH = "wakeup";
     private static final String FORECAST_SEARCH = "forecast";
     private static final String DIGITS_SEARCH = "digits";
